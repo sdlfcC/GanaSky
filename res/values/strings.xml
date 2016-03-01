@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">手机订票</string>
+    <string name="app_Iconname">手机订票</string>
+    <string name="app_ganaSkyMain">欢迎使用订票系统...</string>
+    <string name="app_nameLogin">登录</string>
+    <string name="app_nameRegister">注册</string>
+     <string name="app_nameTicketMain">机票查询</string>
+     <string name="app_nameCitySelect">城市选择</string>
+     <string name="app_nameSelectFlight">选择航班</string>
+      <string name="app_nameDetailFlight">航班详情</string>
+      <string name="app_nameOrerTicket">订票</string>
+               
+</resources>
+

@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ganasky"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_ganaSkyMain"
+        android:theme="@style/AppTheme" >
+       <activity android:name=".GanaSkyMain"
+                  android:label="@string/app_ganaSkyMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--登录页面  -->
+        <activity android:name="LogApp" android:label="@string/app_nameLogin"/>
+        <!--机票查询主界面  -->
+        <activity android:name="TicketMainApp" android:label="@string/app_nameTicketMain"/>
+    </application>
+
+</manifest>
