@@ -15,15 +15,41 @@ public final class R {
         public static final int button1=0x7f020001;
         public static final int button2=0x7f020002;
         public static final int button3=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
+        public static final int buttonbgon=0x7f020004;
+        public static final int buttonshape=0x7f020005;
+        public static final int buttonshape_down=0x7f020006;
+        public static final int checked=0x7f020007;
+        public static final int flightdetailbg=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int icon=0x7f02000a;
+        public static final int logo=0x7f02000b;
     }
     public static final class id {
-        public static final int gridview=0x7f060000;
+        public static final int RadioButtonOfNotSave=0x7f060007;
+        public static final int RadioButtonOfSave=0x7f060006;
+        public static final int RadioGroup01=0x7f060005;
+        public static final int btn_Cancel=0x7f060009;
+        public static final int btn_Ok=0x7f060008;
+        public static final int btn_Register=0x7f06000a;
+        public static final int et_UserName=0x7f060002;
+        public static final int et_UserPsd=0x7f060004;
+        public static final int fligtLisy_items=0x7f060000;
+        public static final int gridview=0x7f06000b;
+        public static final int widget28=0x7f060001;
+        public static final int widget30=0x7f060003;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int login=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class string {
+        /**  与后台交互 
+ 登录 
+         */
+        public static final int LoginaspURL=0x7f04000a;
+        /**  注册 
+         */
+        public static final int RegisterURL=0x7f04000b;
         public static final int app_Iconname=0x7f040001;
         public static final int app_ganaSkyMain=0x7f040002;
         public static final int app_nameCitySelect=0x7f040006;

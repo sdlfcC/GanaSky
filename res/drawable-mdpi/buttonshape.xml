@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"> 
+   <!-- 设置按钮初始画面渐进色 -->
+    <gradient android:startColor="#0f61ad" android:endColor="#81F7F3" 
+            android:angle="270"/>   
+     <!-- 设置按钮初始画面形状 -->    
+    <corners 
+         android:bottomRightRadius="10dip" 
+         android:bottomLeftRadius="1dip" 
+         android:topLeftRadius="1dip" 
+         android:topRightRadius="10dip"/> 
+        
+</shape>
