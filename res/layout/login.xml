@@ -108,8 +108,8 @@
         android:layout_marginRight="5dip">
         <Button 
 		    android:id="@+id/btn_Register" 
-		    android:layout_width="80dip"
-			android:layout_height="40dip" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
 			android:text="免费注册" 
 			>
 	   </Button>

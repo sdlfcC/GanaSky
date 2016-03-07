@@ -25,31 +25,60 @@ public final class R {
         public static final int logo=0x7f02000b;
     }
     public static final class id {
-        public static final int RadioButtonOfNotSave=0x7f060007;
-        public static final int RadioButtonOfSave=0x7f060006;
-        public static final int RadioGroup01=0x7f060005;
-        public static final int btn_Cancel=0x7f060009;
-        public static final int btn_Ok=0x7f060008;
-        public static final int btn_Register=0x7f06000a;
-        public static final int et_UserName=0x7f060002;
-        public static final int et_UserPsd=0x7f060004;
-        public static final int fligtLisy_items=0x7f060000;
-        public static final int gridview=0x7f06000b;
-        public static final int widget28=0x7f060001;
-        public static final int widget30=0x7f060003;
+        public static final int AutoCompleteTextView_City=0x7f060003;
+        public static final int ItemText=0x7f060001;
+        public static final int LinearLayout01=0x7f060002;
+        public static final int ListView01=0x7f060005;
+        public static final int RadioButtonOfNotSave=0x7f06000d;
+        public static final int RadioButtonOfSave=0x7f06000c;
+        public static final int RadioGroup01=0x7f06000b;
+        public static final int RelativeLayout01=0x7f060000;
+        public static final int btn_Cancel=0x7f06000f;
+        public static final int btn_Ok=0x7f06000e;
+        public static final int btn_Register=0x7f060010;
+        public static final int btn_RegisterCancel=0x7f06001c;
+        public static final int ed_registerPwd=0x7f060015;
+        public static final int ed_registerRePwd=0x7f060017;
+        public static final int ed_registerUserEmail=0x7f06001b;
+        public static final int ed_registerUserMoblePhone=0x7f060019;
+        public static final int ed_registeruserName=0x7f060013;
+        public static final int et_UserName=0x7f060008;
+        public static final int et_UserPsd=0x7f06000a;
+        public static final int fligtLisy_items=0x7f060006;
+        public static final int gridview=0x7f060011;
+        public static final int widget28=0x7f060007;
+        public static final int widget30=0x7f060009;
+        public static final int widget31=0x7f060004;
+        public static final int widget34=0x7f060012;
+        public static final int widget37=0x7f060014;
+        public static final int widget39=0x7f060016;
+        public static final int widget41=0x7f060018;
+        public static final int widget43=0x7f06001a;
     }
     public static final class layout {
-        public static final int login=0x7f030000;
-        public static final int main=0x7f030001;
+        public static final int citylist_items=0x7f030000;
+        public static final int citylistmain=0x7f030001;
+        public static final int login=0x7f030002;
+        public static final int main=0x7f030003;
+        public static final int register=0x7f030004;
     }
     public static final class string {
-        /**  与后台交互 
+        /**  匹配城市 
+         */
+        public static final int CitySelectURL=0x7f04000c;
+        /** 与后台交互网址  
  登录 
          */
         public static final int LoginaspURL=0x7f04000a;
+        /**  订票 
+         */
+        public static final int OrderTicketURL=0x7f04000e;
         /**  注册 
          */
         public static final int RegisterURL=0x7f04000b;
+        /**  查询机票ticketSearchUrl 
+         */
+        public static final int TicketSearchUrl=0x7f04000d;
         public static final int app_Iconname=0x7f040001;
         public static final int app_ganaSkyMain=0x7f040002;
         public static final int app_nameCitySelect=0x7f040006;

@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">手机订票</string>
-    <string name="app_Iconname">手机订票</string>
+    <string name="hello">点击每个按钮，看看状态栏的变化！</string>
+    <string name="app_Iconname">订票系统</string>
     <string name="app_ganaSkyMain">欢迎使用订票系统...</string>
     <string name="app_nameLogin">登录</string>
     <string name="app_nameRegister">注册</string>
-    <string name="app_nameTicketMain">机票查询</string>
-    <string name="app_nameCitySelect">城市选择</string>
-    <string name="app_nameSelectFlight">选择航班</string>
-    <string name="app_nameDetailFlight">航班详情</string>
-    <string name="app_nameOrerTicket">订票</string>
-   <!-- 与后台交互 -->
-   <!-- 登录 -->
-    <string name="LoginaspURL">http://192.168.23.1:80/userInfo.xml</string>   
-    <!-- 注册 -->
-    <string name="RegisterURL">http://192.168.23.1:80/userInfo.xml</string>         
+     <string name="app_nameTicketMain">机票查询</string>
+     <string name="app_nameCitySelect">城市选择</string>
+     <string name="app_nameSelectFlight">选择航班</string>
+      <string name="app_nameDetailFlight">航班详情</string>
+      <string name="app_nameOrerTicket">订票</string>
+     
+    <!--与后台交互网址  -->
+     <!-- 登录 -->    
+     <string name="LoginaspURL">http://220.165.15.216:7777/MobilePage/LoginHtmlPage.aspx</string>
+     
+     <!-- 注册 -->
+     <string name="RegisterURL">http://220.165.15.216:7777/MobilePage/RegisterPage.aspx</string>
+     
+     <!-- 匹配城市 -->
+      <string name="CitySelectURL">http://220.165.15.216:7777/MobilePage/CityQueryPage.aspx</string>
+      
+      <!-- 查询机票ticketSearchUrl -->
+      <string name="TicketSearchUrl">http://220.165.15.216:7777/MobilePage/SearchTicketPage.aspx</string>
+      
+      <!-- 订票 -->     
+     <string name="OrderTicketURL">http://220.165.15.216:7777/MobilePage/OrderTicket.aspx</string>
+            
+     
 </resources>
 

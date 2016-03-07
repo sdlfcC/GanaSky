@@ -2,11 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.ganasky" android:versionCode="1" android:versionName="1.0">
 
-	<application android:icon="@drawable/icon" android:label="@string/hello"
-		android:textSize="15sp"
-		android:allowBackup="true"
-		android:theme="@style/AppTheme">
-		
+	<application android:icon="@drawable/icon" android:label="@string/app_Iconname"
+		android:textSize="15sp">
 		<!-- -主页面,对应的是GanaSkyMain.java文件 -->
 		<activity android:name="GanaSkyMain" android:label="@string/app_ganaSkyMain">
 			<intent-filter>
@@ -23,7 +20,19 @@
 			
 		<!-- 机票查询主界面 -->
 		<activity android:name="TicketMainApp" android:label="@string/app_nameTicketMain" />
-			
+		<activity android:name="CityListView" android:label="@string/app_nameCitySelect" />
+		
+		<!-- 选择航班 -->
+		<activity android:name="FlightInfoMainApp" android:label="@string/app_nameSelectFlight" />
+		
+		<!-- 航班详细信息 -->	
+		<activity android:name="FlightListDetail" android:label="@string/app_nameDetailFlight" />
+		
+		<!-- 订票 -->	
+		<activity android:name="OrderTicket" android:label="@string/app_nameOrerTicket" />
+		
+		<!-- 订票 返回结果界面-->	
+		<activity android:name="OrderSuccess" android:label="@string/app_nameOrerTicket" />		
 	</application>
 	<uses-sdk android:minSdkVersion="8" />
 	<uses-permission android:name="android.permission.INTERNET" />
