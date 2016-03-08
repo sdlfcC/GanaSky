@@ -46,6 +46,20 @@ public final class R {
         public static final int et_UserPsd=0x7f06000a;
         public static final int fligtLisy_items=0x7f060006;
         public static final int gridview=0x7f060011;
+        public static final int table1=0x7f06001d;
+        public static final int table2=0x7f06002a;
+        public static final int ticketmain_btnCancelSearchTicket=0x7f060029;
+        public static final int ticketmain_btnSearchTicket=0x7f060028;
+        public static final int ticketmain_imgSetCity=0x7f06001f;
+        public static final int ticketmain_imgoffCity=0x7f060021;
+        public static final int ticketmain_imgsetTime=0x7f060023;
+        public static final int ticketmain_offCity=0x7f060020;
+        public static final int ticketmain_setCity=0x7f06001e;
+        public static final int ticketmain_setClass=0x7f060024;
+        public static final int ticketmain_setTime=0x7f060022;
+        public static final int ticketmain_setTravelCompany=0x7f060026;
+        public static final int ticketmain_spinnerSetClass=0x7f060025;
+        public static final int ticketmain_spinnerSetCompany=0x7f060027;
         public static final int widget28=0x7f060007;
         public static final int widget30=0x7f060009;
         public static final int widget31=0x7f060004;
@@ -61,6 +75,7 @@ public final class R {
         public static final int login=0x7f030002;
         public static final int main=0x7f030003;
         public static final int register=0x7f030004;
+        public static final int ticketmain=0x7f030005;
     }
     public static final class string {
         /**  匹配城市 

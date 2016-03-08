@@ -57,7 +57,7 @@ public class GanaSkyImageAdapter extends BaseAdapter
 			// 给ImageView设置资源
 			imageView = new ImageView(mContext);
 			// 设置布局 图片85×85显示
-			imageView.setLayoutParams(new GridView.LayoutParams(85, 85));
+			imageView.setLayoutParams(new GridView.LayoutParams(200, 200));
 			// 设置显示比例类型
 			imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 		}
