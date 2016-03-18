@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/fligtLisy_items"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"	
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	android:textSize="15sp"
+	android:textColor="#00ff00"
+	android:background="@drawable/buttonbgon">
+	
+	<!-- 第一行 -->
+	 <LinearLayout 
+	    android:background="@drawable/buttonbgon"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+	        android:id="@+id/flightlistDetail_txtTime" 
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_centerVertical="true"/> 
+			<!-- 星期计算 -->
+		 <TextView 
+	        android:id="@+id/flightlistDetail_txtWeek" 
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_centerVertical="true"/>                     
+		<TextView 
+		    android:id="@+id/flightlistDetail_txtSetCity" 
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"/>
+        <TextView 
+             android:id="@+id/flightlistDetail_arrow"
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:layout_marginLeft="5dip" 
+			 android:text="->"  />	            
+        <TextView  
+              android:id="@+id/flightlistDetail_txtOffCity" 
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       
+     </LinearLayout>
+     
+      <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!-- 第一行航班 -->
+        <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">
+	         <TextView  
+              android:text="航班："
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtFlightNumber"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+         <!-- 第二行 -->
+        <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	        
+	         <TextView  
+              android:text="机型："
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtPlaneModel"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+         <!-- 第三行 -->
+        <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	       
+	         <TextView  
+              android:text="起飞："
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtTakeOffAndFromAirportName"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+         <!-- 第四行 -->
+        <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	        
+	         <TextView  
+              android:text="到达："
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtLandingAndToAirportName"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+        <!-- 第五行 -->
+        <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	        
+	         <TextView  
+              android:text="单价："
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtPrice"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+         <!-- 第六行 -->
+         <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	        
+	         <TextView  
+              android:text="基建/燃油费："
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtAirportConstructionFeeAndFuelSurcharge"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+        
+        <!-- 第七行 -->
+         <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	        
+	         <TextView  
+              android:text="是否是电子客票:"
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtElectronicTicket"             
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+        
+         <!-- 第八行 -->
+         <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip">	        
+	         <TextView  
+              android:text="是否可以改签:"
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>
+         	   <TextView  
+              android:id="@+id/flightlistDetail_txtIsChangeTicket"  
+              android:text="不可以"           
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"/>       	          
+        </LinearLayout>
+        
+         <!-- 第九行 -->
+         <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dip"
+	        android:gravity="center_vertical">	        
+	         <Button 
+	             android:id="@+id/flightlistDetail_btnOrder"
+	             android:text="预  订"
+	             android:layout_width="80dip"
+	             android:layout_height="40dip"
+	             android:gravity="center"	             
+	             android:layout_marginLeft="15dip"/>
+	        
+         	   <Button 
+	             android:id="@+id/flightlistDetail_btnReturn"
+	             android:text="返回查票"
+	             android:layout_width="80dip"
+	             android:layout_height="40dip"
+	             android:gravity="center"
+	             android:layout_marginLeft="20dip"	            
+	             />     	          
+        </LinearLayout>
+               		        
+      </LinearLayout>
+		
+</LinearLayout>

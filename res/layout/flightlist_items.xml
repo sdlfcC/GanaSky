@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/fligtLisy_items"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"	
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal">
+	<!-- -图片和其他三项水平排列 -->
+	<ImageView 
+		 android:id="@+id/flightList_CompanyCode" 
+		 android:layout_gravity="center_vertical"
+		 android:layout_height="wrap_content"
+		 android:layout_width="wrap_content" 					
+		 android:layout_marginRight="1.0dip" />
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+           <!-- 第一行 -->
+           <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.0">
+		        <TextView 	
+				    android:id="@+id/flightList_FlightNumber"	     
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content" 			
+					android:layout_centerVertical="true" />
+				<TextView 
+				    android:id="@+id/flightList_ClassName"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_marginLeft="10dip"							
+					android:layout_centerVertical="true" />
+				<TextView 
+				    android:id="@+id/flightList_publicPriceText"				    	    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_marginLeft="40dip"							
+					android:layout_centerVertical="true" />
+				<TextView 
+				    android:id="@+id/flightList_PublicPrice"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"	
+					android:textColor="#00ff00"
+					android:textStyle="bold"				
+					android:layout_centerVertical="true" />
+		        		                
+          </LinearLayout>
+           <!-- 第二行 -->
+           <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.0">
+		        <TextView 
+				    android:id="@+id/flightList_CompanyName"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"	
+					android:layout_centerVertical="true" />		    
+				<TextView 
+				    android:id="@+id/flightList_FromAirportName"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"	
+					android:layout_marginLeft="10dip"				
+					android:layout_centerVertical="true" />	
+				<!-- 航班起飞的时间 -->
+				<TextView 
+				    android:id="@+id/flightList_TakeOff"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"	
+					android:layout_marginLeft="2dip"				
+					android:layout_centerVertical="true" />	
+				<!-- 机票数 -->
+				<TextView 
+				    android:id="@+id/flightList_AvailableSeat"	   
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_marginLeft="10dip"		
+					android:layout_centerVertical="true" />					
+				<TextView 
+				    android:id="@+id/flightList_AvailableSeat2"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"	
+					android:layout_centerVertical="true" />	         
+          </LinearLayout>
+             <!-- 第三行 -->
+           <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.0">
+		        <TextView 	
+				    android:id="@+id/flightList_LandingAirportName"	     
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content" 
+					android:layout_marginLeft="65dip"		
+					android:layout_centerVertical="true" />						
+				<!-- 航班降落的时间 -->
+				<TextView 
+				    android:id="@+id/flightList_Landing"		    
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content"	
+					android:layout_marginLeft="2dip"									
+					android:layout_centerVertical="true" />			
+				 		  						                  
+          </LinearLayout> 
+                
+     </LinearLayout>   
+                                 			 		
+</LinearLayout>

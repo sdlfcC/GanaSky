@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ordersuccess"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"	
+	android:layout_height="fill_parent" 
+	android:textSize="15sp"
+	android:background="@drawable/buttonbgon"
+	android:orientation="vertical">
+	<TextView
+		    android:id="@+id/ordersuccess_result"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="5dip"/>	
+	<LinearLayout 
+	    android:background="@drawable/buttonbgon"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip" >
+     <Button 
+	       android:id="@+id/ordersuccess_btnReturn"
+	       android:text="返回查票"
+	       android:layout_width="80dip"
+	       android:layout_height="40dip"	
+	       android:layout_marginLeft="15dip"       
+	       android:gravity="center"
+	       android:background="@+xml/selectshape"/> 
+	  <Button 
+           android:id="@+id/ordersuccess_exit"
+	       android:text="退出系统"
+	       android:layout_width="80dip"
+	       android:layout_height="40dip"
+	       android:layout_marginLeft="20dip"
+	       android:gravity="center"
+	       android:background="@xml/selectshape"/> 
+	 </LinearLayout>
+</LinearLayout>
+
+

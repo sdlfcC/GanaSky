@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/buttonbgon"
+	>
+	<RelativeLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" >
+	   <TextView 
+	        android:id="@+id/flightlistmain_txtTime" 
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_centerVertical="true"/>     
+                 
+		<TextView 
+		    android:id="@+id/flightlistmain_txtSetCity" 
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_toRightOf="@+id/flightlistmain_txtTime"
+            android:layout_alignTop="@+id/flightlistmain_txtTime" />
+        <TextView 
+             android:id="@+id/flightlistmain_arrow"
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:layout_marginLeft="5dip" 
+			 android:layout_toRightOf="@+id/flightlistmain_txtSetCity"
+			 android:layout_alignTop="@+id/flightlistmain_txtSetCity" />	
+                
+        <TextView  
+              android:id="@+id/flightlistmain_txtOffCity" 
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"
+        	  android:layout_toRightOf="@+id/flightlistmain_arrow"
+        	  android:layout_alignTop="@+id/flightlistmain_arrow" />
+         		     
+	 </RelativeLayout>   
+	     
+     <RelativeLayout 
+              android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" >
+		      <Button
+		        android:id="@+id/flightlistmain_orderPrice"
+		        android:layout_width="80dip"
+		        android:layout_height="40dip"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dip"
+		        android:text="价格排序" 
+		        />
+		     <Button
+		        android:id="@+id/flightlistmain_orderTime"
+		        android:layout_width="80dip"
+		        android:layout_height="40dip"
+		        android:layout_marginLeft="10dip"
+		        android:layout_toRightOf="@+id/flightlistmain_orderPrice"
+		        android:layout_alignTop="@+id/flightlistmain_orderPrice"
+		        android:text="时间排序" 
+		        />
+		      <TextView  
+              android:id="@+id/flightlistmain_txtflightCount" 
+		  	  android:layout_width="wrap_content"
+         	  android:layout_height="wrap_content"
+         	  android:layout_marginLeft="5dip"
+         	  android:visibility="invisible"
+        	  android:layout_toRightOf="@+id/flightlistmain_orderTime"
+        	  android:layout_alignTop="@+id/flightlistmain_orderTime" />
+		        
+     </RelativeLayout>  
+       
+       <!-- 需要不断循环的子项 -->
+     <RelativeLayout 
+         android:layout_width="fill_parent" 
+	     android:layout_height="wrap_content" >
+	     <ListView 
+	         android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:id="@+id/flightlistmain_listFlight" />		     
+     </RelativeLayout>
+          
+</LinearLayout>
+
+		
+
